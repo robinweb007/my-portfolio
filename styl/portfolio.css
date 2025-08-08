@@ -20,6 +20,9 @@
   
   
 }
+.text-center{
+    text-align: center;
+}
 .btn-tow{
     display: flex;
     gap:50px;
@@ -112,3 +115,27 @@ nav ul a{
    .about-title{
     font-size: 30px;
    }
+   /* skills section */
+   .skills{
+    margin-top: 50px;
+   }
+.skills-container{
+    display: flex;
+    gap: 20px;
+    
+    
+}
+.skill{
+  padding: 30px;
+  box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+  border-radius: 10px;
+}
+/* section resume */
+.resume{
+    text-align: center;
+    margin-top: 50px;
+}
+.resume-continar{
+    display: flex;
+    gap: 50px;
+}
